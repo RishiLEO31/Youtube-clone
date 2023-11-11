@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="cloneStyle.css">
+    <script src="index.js"></script>
+</head>
+<body id="body">    
+        <header class="header">
+            <div class="logo left">
+                <i id="menu" class="material-icons">menu</i>
+                <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+            </div>
+          
+            <div class="search center">
+                <form action="">
+                    <input type="text" placeholder="Search">
+                    <button><i class="material-icons">search</i></button>
+                </form>
+                <i class="material-icons mic">mic</i>
+            </div>
+          
+            <div class="icons right">
+                <button id="theme-toggle"><i class="material-icons">contrast</i></button>
+                <i class="material-icons">videocam</i>
+                <i class="material-icons">apps</i>
+                <i class="material-icons">notifications</i>
+                <i class="material-icons display-this">account_circle</i>
+            </div>
+        </header><main>
+            <div class="side-bar">
+                <div class="nav">
+                    <a class="nav-link active">
+                        <i class="material-icons">home</i>
+                        <span>Home</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">local_fire_department</i>
+                        <span>Trending</span>
+                    </a>
+                    <a class="nav-link">
+                        <i class="material-icons">subscriptions</i>
+                        <span>Subscriptions</span>
+                    </a>
+                </div>
+                <hr>
+                <a class="nav-link">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your Videos</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </a>
+                <a class="nav-link">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked Videos</span>
+                </a>
+            </div>
+    
+            <div class="content">
+                <div class="videos">
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/0yOULRwyp2o/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.googleusercontent.com/ytc/APkrFKaHE521DhvV_ITzZJ3VufnSflU5Y75qFAW0fYkRKQ=s176-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    TVアニメ「ようこそ実力至上主義の教室へ 3rd Season」特報｜2024年1月放送
+                                </h3>
+                                <a href="">
+                                    KADOKAWAanime
+                                </a>
+                                <span> 310K Views • 4 Days Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/Wje3zkc7syE/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.googleusercontent.com/ytc/APkrFKZVYOepe_d6tmkh_kHVsw9hbZD-nFPABWHnc6cgUw=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Exams Ka Mausam | Ashish Chanchlani
+                                </h3>
+                                <a href="">
+                                    ashish chanchlani vines
+                                </a>
+                                <span> 125M Views • 5 Years Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/ctPSGorrkqQ/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/bS1p-qeahk2AqdmVbamkjTZU-SCzlzJBMtV6URe758HmNXdbx0G21Hu6nMWcOhRI4AJqgFl5bw=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    The Top 10 Fastest Checkmates To Win At Chess
+                                </h3>
+                                <a href="">
+                                    Chess.com
+                                </a>
+                                <span> 350K Views • 8 Months Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/phWxA89Dy94/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/rn6FdUja6V224On4xyuSgcUrQyTPAHaUBA3MQmLr-ChvxSGeCmdGTvkZvJXjvgO-uZc1cxqS=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Learn Flexbox CSS in 8 minutes
+                                </h3>
+                                <a href="">
+                                    Slaying The Dragon
+                                </a>
+                                <span> 915K Views • 11 Months Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/Ke5kFc7U1h8/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/T1x3cnA4Z6Xwd_PMe9jrc-NcvizgDbmvTRCsEzRCvD_tz3zvWCdqwe3zV-2daoI-KXOxJO02utc=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    The 48 Laws of Power Summarized in Under 8 Minutes by Robert Greene
+                                </h3>
+                                <a href="">
+                                    Robert Greene
+                                </a>
+                                <span> 214K Views • 6 Months Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/-oaorGGeLbE/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/8vjozX2J59xd1ZsGXHIZdEUROJKuCrUhiQHbMHWyvLwPH3jUuqxpk4uBSvuHvW-dPLBRQLH6iA=s48-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    People You Know x Starboy
+                                </h3>
+                                <a href="">
+                                    Ren - Topic
+                                </a>
+                                <span> 469K Views • 6 Months Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/VYSc1h8qkgg/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/u9xvVOugM552VZ0fk1Lc0MiRNP34P7Nx7N0L46jHIGhppd3XEq2MYZfb_LdGiPKGlI0Q0MmE=s48-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    The Neighbourhood - Sweater Weather (slowed + reverb)
+                                </h3>
+                                <a href="">
+                                    Ghosted
+                                </a>
+                                <span> 16M Views • 1 Year Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/fCS8jGc3log/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/4toKBJKPsAfwxy2xfr_EQJ7CuHpLvZa4eux6T2TAf8EU25uH_G9gbUA9djqaCrTjkIESnPjzww=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    What's Inside a Smartphone?
+                                </h3>
+                                <a href="">
+                                    Branch Education
+                                </a>
+                                <span> 636K Views • 4 Years Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/hWIUPqV4eHE/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/os420spHqh9Svv_Ijfat-zgCeaBa7nE2s6m67otRbSSBMiYssiu1w4rn9Sq26rNN0s_Y1tfS-fM=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    SundaySuspense | Professor Shonku | Don Christobaldi-r Bhobishyotbani | Satyajit Ray | Mirchi Bangla
+                                </h3>
+                                <a href="">
+                                    Mirchi Bangla
+                                </a>
+                                <span> 469K Views • 6 Days Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/LEENEFaVUzU/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.googleusercontent.com/ytc/APkrFKaHuotB178A3_ar_1xwrchH_bEo4wjg6A-kXFErPA=s176-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    The Last Human – A Glimpse Into The Far Future
+                                </h3>
+                                <a href="">
+                                    Kurzgesagt – In a Nutshell
+                                </a>
+                                <span> 11M Views • 1 Year Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/ASgoKwue0ps/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/h-gt9Jarrcmnbmdgtp8GGSCbwlAlTIUfxSvH24vhXeQ-TFZaXMAB3N226-pXvx7y46lY-Yrk=s48-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    8 VISUAL Coin Tricks Anyone Can Do | Revealed
+                                </h3>
+                                <a href="">
+                                    Oscar Owen
+                                </a>
+                                <span> 927K Views • 2 Years Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img src="https://img.youtube.com/vi/RWHeEdj3TME/mqdefault.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="author">
+                                <img src="https://yt3.ggpht.com/LJoiazX6BI-TprZr04YgTKDUBuQuMa7WIjQA3t_tessrhSpOIq8YJNFeHnpNmHuBCtpo_ajD1c8=s48-c-k-c0x00ffffff-no-rj" alt="">
+                            </div>
+                            <div class="title">
+                                <h3>
+                                    Mahabharat (महाभारत) | B.R. Chopra | Pen Bhakti
+                                </h3>
+                                <a href="">
+                                    Pen Bhakti
+                                </a>
+                                <span> 11M Views • 3 Years Ago </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>
